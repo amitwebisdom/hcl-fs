@@ -1,0 +1,1113 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width : 1024px) {
+	
+#spopup{
+	
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 10%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/tab/lch_fs_tab_001_1024.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/tab/lch_fs_tab_01_1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/tab/lch_fs_tab_01_1_1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/tab/lch_fs_tab_02_1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/tab/lch_fs_tab_02_1_1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/tab/lch_fs_tab_03_1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mg-image img {
+	transition: all 2s ease;
+    margin: 5% 28%;
+    max-width: 40%;
+}
+}
+
+
+@media screen and (max-width : 800px) {
+	
+#spopup{
+	
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 10%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_tab_001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+}
+
+
+@media screen and (max-width : 768px) {
+
+#spopup{
+	
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 8%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_mob_001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-tab-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-tab-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-tab-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-tab-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-tab-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+}
+
+@media screen and (max-width : 736px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 8%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lands/land_s_00_1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+.mg-image img {
+	
+    transition: all 2s ease 0s;
+    margin: 25% 5% 0% 45%;
+    max-width: 22%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 9%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+    transition: opacity500ms 0s ease 0s;
+    width: 97%;
+    z-index: 9999;
+}
+.mg-image img {
+   transition: all 2s ease 0s;
+    margin: 25% 5% 0% 70%;
+    max-width: 13%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lands/land_s_00_1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+@media screen and (max-width : 568px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lands/land_s_00_1.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/lands/land_s_03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+@media screen and (max-width : 533px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+}
+
+@media screen and (max-width : 480px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+}
+
+@media screen and (max-width : 414px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 5%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+   float: left;
+    font-size: 12px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 63%;
+    position: absolute;
+    text-align: justify;
+    width: 45%;
+}
+
+
+#spopup .marquee marquee {
+
+    height: auto;
+
+}
+
+.mg-image img {
+    transition: all 2s ease 0s;
+	margin: 25% 5% 5% 45%;
+    max-width: 50%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_mob_001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+@media screen and (max-width : 384px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 80%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+    transition: opacity500ms 0s ease 0s;
+    width: 90%;
+    z-index: 9999;
+}
+
+.mg-image img {
+    transition: all 2s ease 0s;
+	margin: 25% 5% 5% 45%;
+    max-width: 20%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+
+
+
+@media screen and (max-width : 375px) {
+	
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 80%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+.frequentPopup-Outer {
+    bottom: 5%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+.mg-image img {
+    transition: all 2s ease 0s;
+	margin: 25% 5% 5% 45%;
+    max-width: 40%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_mob_001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+
+
+
+@media screen and (max-width : 360px){
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+
+.frequentPopup-Outer {
+    bottom: 5%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+
+
+.mg-image img {
+    transition: all 2s ease 0s;
+	margin: 25% 5% 5% 55%;
+    max-width: 40%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_mob_001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width : 320px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0%;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.mg-image img {
+    transition: all 2s ease 0s;
+	margin: 25% 5% 5% 45%;
+    max-width: 40%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/lch_fs_mob_001_320.png");
+	background-size: 320px 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/sm-01.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/sm-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/sm-02.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100% ;
+	width:320px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/sm-02_1.png");
+    background-repeat: no-repeat;
+    background-size:320px 100% ;
+	width:320px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/sm-03.png");
+    background-repeat: no-repeat;
+    background-size:320px 100% ;
+	width:320px;
+}
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+
+}
+

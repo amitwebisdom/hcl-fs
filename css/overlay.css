@@ -1,0 +1,293 @@
+/* -=-=-=-=-=-=-=-=-=-= BEGIN OVERLAY =-=-=-=-=-=-=-=-=-=- */
+/* Lock Page */
+body.overlay-visible {
+  overflow: hidden;
+}
+#overlayContainer {
+  position: fixed;
+  top: 8%;
+  bottom: 12%;
+  left: 15%;
+  height: 75%;
+  overflow: hidden;
+  right: 15%;
+  z-index: 10000;
+  padding: 15px 21px 0;
+  width: 70%;
+  background: rgba(0,0,0,1);
+  text-align: center;
+}
+#overlayContainer:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+#overlayContainer #overlayBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 89%;
+  background: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  opacity: 0;
+}
+#overlayContainer #overlayFrame {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: left;
+  transition: top 0.5s, left 0.5s;
+  -moz-transition: top 0.5s, left 0.5s;
+  -webkit-transition: top 0.5s, left 0.5s;
+  outline: none;
+}
+#overlayContainer #overlayFrame:before {
+  content: "Dialog Start";
+  display: inline-block;
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+}
+#overlayContainer #overlayFrame{
+	width: 75% !important;
+	height: auto !important;
+}
+#overlayContainer #overlayFrame .overlay-content {
+  outline: none;
+  margin: 0 auto;
+  display: block;
+}
+#overlayContainer #overlayFrame #overlayClose {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: -12px;
+  top: -12px;
+  background-color: transparent;
+  cursor: pointer;
+  text-indent: -99999px;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled] {
+  cursor: default;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled]:after {
+  background-color: #888;
+}
+#overlayContainer #overlayFrame #overlayClose[disabled]:hover:after {
+  background-color: #888;
+}
+#overlayContainer #overlayFrame #overlayClose {
+  background: url('../images/icon-close-circled-128.png');
+  display: block;
+  position: absolute;
+  right: -18%;
+  top: -1%;
+  width: 30px;
+  height: 30px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  line-height: 26px;
+  text-indent: -99999%;
+}
+#overlayContainer #overlayFrame #overlayClose:hover:after {
+  background-color: #333;
+}
+#overlayContainer.slide-up #overlayFrame {
+  top: 100%;
+}
+#overlayContainer.slide-down #overlayFrame {
+  top: -100%;
+}
+#overlayContainer.slide-right #overlayFrame {
+  left: -100%;
+}
+#overlayContainer.slide-left #overlayFrame {
+  left: 100%;
+}
+#overlayContainer.visible #overlayBackground {
+  opacity: 0.1;
+}
+#overlayContainer.visible #overlayFrame {
+  top: 0;
+  left: 0;
+}
+#overlayContainer #overlayFrame .overlay-content h1{
+	font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+	text-transform: uppercase;
+}
+#overlayContainer #overlayFrame .overlay-content h1.awardsHead{
+	text-align: left;
+}
+#overlayContainer #overlayFrame .overlay-content h1.awardsHead span{
+	background: #f6821f;
+}
+#overlayContainer #overlayFrame .overlay-content h1.trable{
+	font-size: 19px;
+	margin:20px 0;
+}
+#overlayContainer #overlayFrame .overlay-content h1.trable span{
+	color: #eb6702;
+}
+#overlayContainer #overlayFrame .overlay-content .durationPeriod{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin-top: 8px;
+	font-size: 12px;
+}
+#overlayContainer #overlayFrame .overlay-content h1.asBeyond{
+	text-transform: none;
+}
+#overlayContainer #overlayFrame .overlay-content hr{
+	width: 100%;
+	margin-bottom: 10px;
+}
+#overlayContainer #overlayFrame .overlay-content h2{
+	font-size: 18px;
+	margin-bottom: 5px;
+	padding: 0 10px;
+}
+#overlayContainer #overlayFrame .overlay-content h2.NoMar{
+	font-size: 20px;
+	margin-bottom: 3px;
+}
+#overlayContainer #overlayFrame .overlay-content ul, #overlayContainer #overlayFrame .overlay-content p{
+	list-style: inside;
+	font-size: 14px;
+	text-align: justify;
+	padding: 0 10px;
+}
+#overlayContainer #overlayFrame .overlay-content ul.bigFont{
+	font-size: 20px;
+	line-height: 1.5;
+}
+#overlayContainer #overlayFrame img{
+	margin: 0 auto !important;
+	display: block;
+	max-width: 65%;
+}
+.img-left{
+	float: left;
+	margin: 10px 15px 0px 0px;
+}
+#overlayContainer #overlayFrame .img-left img{
+	float: left;
+	margin-right: 12px !important;
+}
+.img-left p{
+	display: inline;
+	width: auto;
+}
+.clear{
+	float:left;
+	width:100%;
+	padding: 10px 0;
+}
+#overlayContainer #overlayFrame .teamOuter{
+	width: 100%;
+	float: left;
+}
+#overlayContainer #overlayFrame .teamOuter .team{
+	width: 23%;
+	float: left;
+	margin: 3px 1%;
+	text-align: center;
+}
+#overlayContainer #overlayFrame .teamOuter .team img{
+	max-width: 100%;
+	display: inline-block;
+}
+#myOverlay6 table td{
+	border: 0;
+	padding: 5px 20px;
+	border-right: 1px solid #fff;
+	text-align: center;
+}
+#myOverlay6 table tr:nth-of-type(2n+1){
+	background: transparent;
+}
+#myOverlay6 table tr:nth-of-type(2n+1) td{
+	text-align: center;
+	font-size: 21px;
+}
+#myOverlay6 table tr td.noBorder{
+	border: 0;
+}
+#myOverlay6 h2.xperienceMargin{
+	margin-bottom: 12px !important;
+}
+#myOverlay6 h2 a{
+	margin: 0;
+	display: inline-block;
+	text-decoration: underline;
+	color: #5591fe;
+}
+#myOverlay6 h2 a:hover{
+	color: #fff;
+}
+#overlayContainer #overlayFrame table td .address{
+	text-align: center;
+}
+
+
+/***Responsive for popup starts here**/
+
+@media screen and (max-width: 65.1em){
+	td:nth-of-type(1)::before, td:nth-of-type(2)::before, td:nth-of-type(3)::before{
+		content: none !important;
+	}
+	#overlayContainer #overlayFrame table tr, #overlayContainer #overlayFrame table tr td{
+		border: 0;
+	}
+	#overlayContainer {
+		overflow: auto;
+	}
+}
+
+@media screen and (max-width: 55.5em) {
+	#overlayContainer{
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 15px 10px 0;
+		background: rgb(0, 0, 0);
+		height: 100%;
+		top: 0;
+		bottom: 0;
+	}
+	#overlayContainer #overlayFrame{
+		width: 90% !important;
+	}
+	#overlayContainer #overlayFrame #overlayClose{
+		right: -4%;
+		top: 0;
+	}
+	#overlayContainer #overlayFrame ul li{
+		margin-bottom: 8px;
+	}
+	#overlayContainer #overlayFrame img{
+		max-width: 100%;
+	}
+	#overlayContainer #overlayFrame .teamOuter .team{
+		width: 48%;
+		height: 158px;
+	}
+	
+	td:nth-of-type(1)::before, td:nth-of-type(2)::before, td:nth-of-type(3)::before{
+		content: none !important;
+	}
+}
+@media screen and (max-width: 32em){
+	#overlayContainer #overlayFrame .teamOuter .team{
+		width: 98%;
+	}
+}
+/* -=-=-=-=-=-=-=-=-=-= END OVERLAY =-=-=-=-=-=-=-=-=-=- */
